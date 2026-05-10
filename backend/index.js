@@ -59,7 +59,7 @@ const PORT = process.env.PORT || 9080;
 
 // CORS Configuration
 const corsOptions = {
-    origin: "http://localhost:3000", // Your frontend URL
+    origin: "https://netflix-vwaw.vercel.app",//"http://localhost:3000", // Your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,  // Allow credentials (cookies/auth headers)
     allowedHeaders: ["Content-Type", "Authorization"],
