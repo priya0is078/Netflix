@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // 1. Export your Backend API Base URL
-export const API_END_POINT = "http://localhost:9080/api/v1";
+// 1. Export your Backend API Base URL
+export const API_END_POINT = "https://netflix-kb9i.onrender.com/api/v1";
 
 // 2. Create an Axios instance for your Backend API
 // This instance will have withCredentials: true
